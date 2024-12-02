@@ -1,17 +1,17 @@
 The aim of this tool is to evaluate directed and signed 3-node subgraphs of the Caenorhabditis elegans connectome (and in random networks for comparison).
 Contents:
-motifdef.csv : definition of motifs. 
-  If we name the nodes ‘A’, ‘B’ and ‘C’, the 6-digit code representes edges in the following order: A->B, B->A, B->C, C->B, C->A, A->C
-  Different number correspond to different edge ‘colours’
-    ‘1’ is a virtual colour, it means that there is no connection in that direction
-    ‘2’ means that the synapse is excitatory
-    ‘3’ means that the synapse is inhibitory
-    ‘4’ means that the polarity of the synapse is unknown
-  The name of the motifs consists a letter and a number
-    The letter shows the uncolored structure of the motif
-    The number shows the exact coloring of the motif
-  Rotational and reflectional symmetries were considered as the same motif
-triplets.csv : triplets in the C. elegans connectome
+- motifdef.csv : definition of motifs. 
+  - If we name the nodes ‘A’, ‘B’ and ‘C’, the 6-digit code representes edges in the following order: A->B, B->A, B->C, C->B, C->A, A->C
+  - Different number correspond to different edge ‘colours’
+    - ‘1’ is a virtual colour, it means that there is no connection in that direction
+    - ‘2’ means that the synapse is excitatory
+    - ‘3’ means that the synapse is inhibitory
+    - ‘4’ means that the polarity of the synapse is unknown
+  - The name of the motifs consists a letter and a number
+    - The letter shows the uncolored structure of the motif
+    - The number shows the exact coloring of the motif
+  - Rotational and reflectional symmetries were considered as the same motif
+- triplets.csv : triplets in the C. elegans connectome
   3 node of the connectome is considered as a triplet, if none of them is isolated from the other two
   Neurons are represented by 3-digit number from 101 to 402
     Therefore triplets are represented by 9-digit numbers (the codes of the 3 neurons combined)
