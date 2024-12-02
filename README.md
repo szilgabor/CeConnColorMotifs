@@ -26,4 +26,4 @@ The aim of this tool is to evaluate directed and signed 3-node subgraphs of the 
 - translator.csv: list of partial subgraphs in each induced motif
 - partialtranslator.py: this algorithm translates the induced results to partial motif counts (using translator.csv)
 - partialresults.csv: Partial motifs in the connectome and 1 000 random networks
- - Data from partialtranslator.py
+  - Data from partialtranslator.py
